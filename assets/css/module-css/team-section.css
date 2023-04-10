@@ -3,10 +3,12 @@
     Team Style1 Area Css
 =============================================
 ***/
+.team-style1-area .img-holder img {
+  height: 246.66px;
+}
 .team-style1-area {
   position: relative;
   display: block;
-  background: #f3f3f4;
   padding: 120px 0 70px;
 }
 .team-style1-area.pdtop0 {
@@ -40,24 +42,11 @@
 }
 .single-team-style1 .img-holder .inner img {
   width: 100%;
-  filter: grayscale(100%);
 }
 .single-team-style1:hover .img-holder .inner img {
   transform: scale(1.1) rotate(2deg);
 }
-.single-team-style1 .img-holder .overlay-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #212121;
-  opacity: 0;
-  transition-delay: 0.1s;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.7s;
-  transition-property: all;
-}
+
 .single-team-style1:hover .img-holder .overlay-box {
   opacity: 0.7;
 }
@@ -158,11 +147,6 @@
   text-align: center;
   background: #ffffff;
   transition: all 500ms ease;
-}
-.single-team-style1 .title-holder .social-links ul li a:hover {
-  color: #ffffff;
-  border-color: var(--thm-black);
-  background-color: var(--thm-black);
 }
 
 /* nayoon */
