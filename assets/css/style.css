@@ -306,41 +306,26 @@ li {
 .main-header .header {
   max-width: 1400px;
 }
+
 .outer-box .header-left .logo {
   /* width: 100%;
   display: flex;
   justify-content: start; */
 }
 
+.service-style1-area h1 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 1.2em;
+}
+.service-style1-area h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 3em;
+}
 .service-style1-area {
   height: 100vh;
 }
-
-.service-style1-area .service_title {
-  text-align: center;
-  font-size: 3em;
-  color: #fff;
-  /* padding: 1.2em; */
-}
-.main-slider .owl-theme .owl-nav {
-  display: none;
-}
-.service-style1-area .container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  margin-top: 100px;
-}
-.service-style1-area .container .icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.service-style1-area .container h3 {
-  line-height: 80px;
-}
-
 .video-gallery-area {
   height: 100vh;
 }
@@ -504,11 +489,11 @@ li {
   text-align: center;
   line-height: 0;
   margin-top: 50px !important;
-  display: block;
+  display: none;
 }
 .owl-carousel.owl-dot-style1 .owl-dots .owl-dot {
   position: relative;
-  display: inline-block;
+  display: none;
   width: 20px;
   height: 20px;
   border: 0px solid transparent;
@@ -520,6 +505,7 @@ li {
 }
 .owl-carousel.owl-dot-style1 .owl-dots .owl-dot:before {
   content: "";
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -535,10 +521,11 @@ li {
 .owl-carousel.owl-dot-style1 .owl-dots .owl-dot.active:before {
   opacity: 0.25;
   transform: scale(1);
+  display: none;
 }
 .owl-carousel.owl-dot-style1 .owl-dots .owl-dot span {
   position: relative;
-  display: block;
+  display: none;
   width: 10px;
   height: 10px;
   background: #dddddd;
@@ -551,6 +538,11 @@ li {
 .owl-carousel.owl-dot-style1 .owl-dots .owl-dot.active span {
   background: var(--thm-primary);
   opacity: 1;
+  display: none;
+}
+.owl-nav,
+.owl-dots {
+  opacity: 0;
 }
 
 @keyframes pulse {

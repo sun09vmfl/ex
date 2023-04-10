@@ -615,7 +615,7 @@
     display: block;
   }
   .service-style1-area {
-    height: 100vh;
+    height: 100%;
   }
   /*** Service Style1 Area Css ***/
   .service-style1-area .shape1 {
@@ -1291,7 +1291,7 @@
   .main-slider .content .big-title {
   }
   .main-slider .content .big-title h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .main-slider .content .big-title h2 br {
     display: none;
