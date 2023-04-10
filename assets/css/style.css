@@ -303,9 +303,21 @@ li {
 .header .container .logo img {
   width: 250px;
 }
+.main-header .header {
+  max-width: 1400px;
+}
+.outer-box .header-left .logo {
+  /* width: 100%;
+  display: flex;
+  justify-content: start; */
+}
+.service-style1-area {
+  height: 100vh;
+}
 
 .service-style1-area .service_title {
   text-align: center;
+  font-size: 3em;
   padding-bottom: 3em;
   color: #fff;
 }
