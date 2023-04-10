@@ -603,7 +603,10 @@
   .header-right_buttom {
     display: none;
   }
-
+  /* 메인 */
+  .main-slider .content .big-title h2 {
+    font-size: 18px;
+  }
   /*** Partner Area Css ***/
   .partner-area .partner-title h2 {
     font-size: 52px;
@@ -969,13 +972,6 @@
     margin-bottom: 61px;
   }
 
-  .service-style1-area .container .icons {
-    display: flex;
-    justify-content: center;
-    height: 120px;
-    align-items: center;
-  }
-
   /*** Service Details Area Css ***/
   .service-deails-box {
     position: relative;
@@ -1295,7 +1291,7 @@
   .main-slider .content .big-title {
   }
   .main-slider .content .big-title h2 {
-    font-size: 40px;
+    font-size: 28px;
   }
   .main-slider .content .big-title h2 br {
     display: none;
@@ -1369,7 +1365,7 @@
     margin-bottom: 46px;
   }
   .main-slider .content .big-title h2 {
-    font-size: 40px;
+    font-size: 20px;
   }
   .main-slider .content .big-title h2 br {
     display: none;

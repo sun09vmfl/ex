@@ -322,7 +322,9 @@ li {
   color: #fff;
   /* padding: 1.2em; */
 }
-
+.main-slider .owl-theme .owl-nav {
+  display: none;
+}
 .service-style1-area .container {
   display: flex;
   justify-content: space-evenly;
