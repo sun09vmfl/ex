@@ -21,7 +21,7 @@
   --thm-pony-tale-font: pony-tale;
   --thm-gray: #777777;
   --thm-black: #1f2026;
-  --thm-base: #fca817;
+  --thm-base: #2394f6;
   --thm-base-rgb: 252, 168, 23;
   --thm-primary: #43bc75;
   --thm-primary-rgb: 67, 188, 117;
@@ -311,6 +311,7 @@ li {
   display: flex;
   justify-content: start; */
 }
+
 .service-style1-area {
   height: 100vh;
 }
@@ -318,8 +319,8 @@ li {
 .service-style1-area .service_title {
   text-align: center;
   font-size: 3em;
-  padding-bottom: 3em;
   color: #fff;
+  /* padding: 1.2em; */
 }
 
 .service-style1-area .container {
@@ -327,6 +328,7 @@ li {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  margin-top: 100px;
 }
 .service-style1-area .container .icons {
   display: flex;
@@ -335,6 +337,10 @@ li {
 }
 .service-style1-area .container h3 {
   line-height: 80px;
+}
+
+.video-gallery-area {
+  height: 100vh;
 }
 
 .sticky-header img {
