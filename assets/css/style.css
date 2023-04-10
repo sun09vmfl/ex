@@ -1687,35 +1687,51 @@ select:focus {
   background-position: center top;
   z-index: -1;
 }
-.video-gallery-area .shape1 {
-  position: absolute;
-  left: 100px;
-  bottom: 100px;
-  -webkit-animation: animation1 5s ease-in infinite;
-  animation: animation1 5s ease-in infinite;
-}
 
 .xoven-video-gallery-2 {
   position: relative;
   display: block;
 }
 .xoven-video-gallery-2 .big-title {
+  margin-top: 100px;
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 29px;
 }
+
 .xoven-video-gallery-2 .big-title h2 {
-  color: transparent;
-  -webkit-text-stroke: 2px #ffffff;
-  font-size: 100px;
+  /* color: transparent;
+  -webkit-text-stroke: 2px #ffffff; */
+  color: #fff;
+  font-size: 80px;
   line-height: 1.2em;
   font-weight: 700;
 }
+.xoven-video-gallery-2 .big-title h3 {
+  /* color: transparent;
+  -webkit-text-stroke: 2px #ffffff; */
+  color: #fff;
+  font-size: 60px;
+  line-height: 1.2em;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.xoven-video-gallery-2 .big-title .stroke {
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+  font-size: 55px;
+}
+.xoven-video-gallery-2 .btn-box {
+  margin-top: 30px;
+  background-color: transparent;
+}
 .xoven-video-gallery-2 .big-title h2 span {
+  font-size: 60px;
   position: relative;
   display: inline-block;
   padding-right: 23px;
-  color: #fca817;
+  color: #ffffff;
   -webkit-text-stroke: 0px #ffffff;
 }
 .xoven-video-gallery-2 p {
@@ -1735,16 +1751,11 @@ select:focus {
   display: inline-block;
   width: 150px;
   height: 150px;
-  background: var(--thm-base);
+  background-color: transparent;
   border-radius: 50%;
   color: var(--thm-black);
   font-size: 65px;
   line-height: 150px;
-}
-
-.xoven-video-gallery-2.style2 .big-title h2 {
-  color: #ffffff;
-  -webkit-text-stroke: 0px #ffffff;
 }
 
 /*** 
@@ -2546,124 +2557,6 @@ select:focus {
 
 /*** 
 =============================================
-   comments Box Css
-=============================================
-***/
-.comments-box-one {
-  position: relative;
-  display: block;
-  background: #ffffff;
-  padding: 72px 28px 15px;
-  margin-top: 80px;
-}
-.comments-box-one .title {
-  position: relative;
-  display: block;
-  padding-bottom: 33px;
-}
-.comments-box-one .title h2 {
-  color: var(--thm-black);
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 500;
-
-  font-family: var(--thm-oswald-font);
-}
-
-.comments-box-one .inner {
-  position: relative;
-  display: block;
-}
-.single-comments-box {
-  position: relative;
-  display: block;
-  padding-left: 80px;
-  min-height: 80px;
-  margin-bottom: 42px;
-}
-.single-comments-box.mar-left {
-  margin-left: 100px;
-}
-.single-comments-box .img_box {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-.single-comments-box .img_box .inner {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-.single-comments-box .img_box .inner img {
-  width: 100%;
-  border-radius: 50%;
-  filter: grayscale(100%);
-}
-
-.single-comments-box .text_box {
-  position: relative;
-  display: block;
-  padding-left: 50px;
-}
-.single-comments-box .text_box .inner {
-  position: relative;
-  display: block;
-}
-.single-comments-box .text_box .inner h3 {
-  color: var(--thm-black);
-  font-size: 18px;
-  line-height: 32px;
-  font-weight: 400;
-
-  margin-bottom: 15px;
-}
-.single-comments-box .text_box .inner p {
-  margin: 0;
-}
-.single-comments-box .comment-meta-box {
-  position: relative;
-  display: block;
-  margin-top: 13px;
-}
-.single-comments-box .comment-meta-box ul {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  padding-left: 1px;
-}
-.single-comments-box .comment-meta-box ul li {
-  position: relative;
-  display: inline-block;
-  margin-right: 15px;
-}
-.single-comments-box .comment-meta-box ul li:last-child {
-  margin-right: 0;
-}
-.single-comments-box .comment-meta-box ul li a {
-  color: var(--thm-gray);
-  font-size: 13px;
-  line-height: 23px;
-  font-weight: 600;
-  transition: all 200ms linear;
-  transition-delay: 0.1s;
-}
-.single-comments-box .comment-meta-box ul li a:hover {
-  color: var(--thm-base);
-}
-.single-comments-box .comment-meta-box ul li a span::before {
-  position: relative;
-  display: inline-block;
-  top: 2px;
-  font-size: 13px;
-  line-height: 26px;
-  padding-right: 5px;
-}
-
-/*** 
-=============================================
    Reply Form Box Css
 =============================================
 ***/
@@ -2960,6 +2853,11 @@ select:focus {
   line-height: 16px;
   font-weight: 400;
   margin: 10px 0 0;
+}
+
+/* footer */
+.footer img {
+  width: 250px;
 }
 
 /*** 

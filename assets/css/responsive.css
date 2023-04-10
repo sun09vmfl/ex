@@ -583,6 +583,9 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+  header .logo a img {
+    width: 100px;
+  }
   .sec-title {
     padding-bottom: 49px;
   }
@@ -616,6 +619,9 @@
   }
   .service-style1-area {
     height: 100%;
+  }
+  .service-style1-area h2 {
+    font-size: 18px;
   }
   /*** Service Style1 Area Css ***/
   .service-style1-area .shape1 {
